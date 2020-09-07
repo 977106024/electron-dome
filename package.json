@@ -5,7 +5,15 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "xuewuzhijing.top",
+    "mac": {
+      "category": "book"
+    }
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,7 @@
+directories:
+  output: dist
+  buildResources: build
+appId: xuewuzhijing.top
+mac:
+  category: book
+electronVersion: 10.1.1
